@@ -7,7 +7,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
   return(
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <Grid container direction="row">
         <Grid item>
           <h2 style={{marginBottom: 50}}>GET IN TOUCH</h2>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Sections from '../components/Sections';
 import Grid from '@material-ui/core/Grid';
-import photo from './pic1.jpg';
+import photo from '../images/pic1.jpg';
 
 function Sidebar() {
 

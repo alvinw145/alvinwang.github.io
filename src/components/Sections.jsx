@@ -5,11 +5,11 @@ function Sections() {
   return(
     <Grid container direction="row" justify="center" alignItems="center">
       <ul className="sections">
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Blog</li>
-        <li>Photography</li>
-        <li>Contact Me</li>
+        <a href="#about"><li>About Me</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#blog"><li>Blog</li></a>
+        <a href="#photography"><li>Photography</li></a>
+        <a href="#contact"><li>Contact Me</li></a>
       </ul>
     </Grid>
   );

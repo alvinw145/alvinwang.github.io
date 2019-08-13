@@ -24,13 +24,13 @@ li{
   text-align: center;
   margin: 20px 0;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 li:hover{
   color: #3d98ff;
-  border-bottom: solid 1px #3d98ff;
 }
-li:after{
+/* li:after{
   content: '';
   display: block;
   transform: scaleX(0);
@@ -38,7 +38,22 @@ li:after{
 }
 li:hover:after{
   transform: scaleX(1);
+} */
+a{
+  color: inherit;
+  text-decoration: none;
 }
+
+/* button{
+  padding: 0 5px;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  color: #00274c;
+}
+button:hover{
+  cursor: pointer;
+} */
 
 .profile-picture{
   height: 150px;
@@ -46,22 +61,23 @@ li:hover:after{
   border-radius: 50%;
 }
 .slideshow-container{
-  height: 400px;
+  height: 500px;
   background-color: grey;
   margin-bottom: 100px;
+  padding-bottom: 150px;
 }
-.resume-btn-container{
-  border: solid 2px black;
-  border-radius: 5px;
-}
-.resume-btn:hover{
-  cursor: pointer;
-}
-.resume-btn{
+.btn-container{
   padding: 10px;
-  font-size: 16px;
-  background: transparent;
-  border: none;
+  border: solid 2px #00274c;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #00274c;
+  transition: 0.65s;
+}
+.btn-container:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #00274c;
 }
 
 /* About Section Styling */
